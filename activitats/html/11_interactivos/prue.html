@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>que cuadro es este?</h1>
+    
+    <p>Estoy aprendiendo <abbr title="quadro">HTML</abbr> hola </abbr> por las tardes</p>
+    <details>
+            <sumary>Que cuadro</sumary>
+            <ul>
+                <li>bangog</li>
+                <li>saturno</li>
+            </ul>
+            <p>cuadro interesante</p>
+    </details>
+
+    <dialog open> !has sido registrado con exito¡</dialog>
+
+    <label>¿cual es tu personaje favorito de harry poter?:
+        <input list="personajes.harry-poter" type="text" name="personaje-favorito">
+    </label>
+
+    <datalist id="personajes.harry-poter">
+        <option value="harry1"></option>
+        <option value="harry2"></option>
+        <option value="harry3"></option>
+        <option value="harry4"></option>
+        <option value="harry5"></option>
+    </datalist>
+
+    <progress max="100" value="30">30%</progress><br>
+
+    <label>
+        Temperatura
+        <meter
+            id="Temperature"
+            min="-275"
+            max="100"
+            value="28"
+
+        >
+            28
+        </meter>    
+    </label><br>
+
+    <label>
+        Batería
+        <meter
+            id="battery"
+            min="0"
+            max="100"
+            low="60"
+            high="80"
+            optimum="85"
+            value="10"
+        >
+            Entre 60 y 80
+        </meter>
+    </label>
+    
+</body>
+</html>
