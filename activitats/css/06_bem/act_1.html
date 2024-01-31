@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Estilos CSS para el header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .search-form {
+            margin-top: 10px;
+        }
+        .search-form input[type="text"] {
+            padding: 5px;
+            width: 200px;
+        }
+        .search-form input[type="submit"] {
+            padding: 5px 10px;
+            background-color: #555;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="tu-logo.png" alt="Logo de la empresa" class="logo">
+    <nav>
+        <a href="/activitats/css/06_bem/act_1_paginas/inicio.html">Inicio</a>
+        <a href="/activitats/css/06_bem/act_1_paginas/acerca.html">Acerca de</a>
+        <a href="/activitats/css/06_bem/act_1_paginas/servicios.html">Servicios</a>
+        <a href="/activitats/css/06_bem/act_1_paginas/contacto.html">Contacto</a>
+    </nav>
+    <form action="/buscar" method="GET" class="search-form">
+        <input type="text" name="q" placeholder="Buscar...">
+        <input type="submit" value="Buscar">
+    </form>
+</header>
+
+<!-- Aquí iría el resto del contenido de tu página -->
+
+</body>
+</html>
