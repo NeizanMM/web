@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Imagen con filtro de escala de grises al pasar el cursor</title>
+    <style>
+      .grayscale {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+
+      .grayscale:hover {
+        filter: grayscale(0%);
+      }
+    </style>
+  </head>
+  <body>
+    <img src="/activitats/css/19_filtres/imagen/images.jpg" alt="Imagen" class="grayscale">
+  </body>
+</html>
